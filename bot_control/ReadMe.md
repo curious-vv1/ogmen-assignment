@@ -1,5 +1,4 @@
-# Define the content for the README.md file
-readme_content = """
+
 # Bot Control Package
 
 This package provides functionality to visualize and control a robot in both RViz and Gazebo simulation environments.
