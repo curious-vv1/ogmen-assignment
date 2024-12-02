@@ -99,8 +99,8 @@
     <joint name="base_caster_wheel_joint" type="fixed">
         <parent link="base_link"/>
         <child link="caster_wheel_link"/>
-        <origin xyz="0.071 0 -0.05" rpy="0 0 0"/>
-        <dynamics damping="0.0" friction="0.01"/>
+        <origin xyz="0.071 0 -0.039" rpy="0 0 0"/>
+        <!-- <dynamics damping="0.0" friction="0.01"/> -->
     </joint>
 
     <!-- Lidar Link -->

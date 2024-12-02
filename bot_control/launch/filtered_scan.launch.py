@@ -14,16 +14,16 @@ def generate_launch_description():
             output='screen',
         ),
         # Start RViz
-        ExecuteProcess(
-            cmd=[
-                'rviz2',
-                '-d',
-                PathJoinSubstitution([
-                    FindPackageShare('bot_control'),  
-                    'config',
-                    'filter_scan.rviz'  
-                ])
-            ],
-            output='screen',
-        ),
+        # ExecuteProcess(
+        #     cmd=[
+        #         'rviz2',
+        #         '-d',
+        #         PathJoinSubstitution([
+        #             FindPackageShare('bot_control'),  
+        #             'config',
+        #             'filter_scan.rviz'  
+        #         ])
+        #     ],
+        #     output='screen',
+        # ),
     ])

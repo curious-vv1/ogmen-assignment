@@ -73,7 +73,18 @@ Visualization Manager:
       Show Axes: true
       Show Names: false
       Tree:
-        {}
+        odom:
+          base_link:
+            camera_link:
+              {}
+            caster_wheel_link:
+              {}
+            left_wheel_link:
+              {}
+            lidar_centre:
+              {}
+            right_wheel_link:
+              {}
       Update Interval: 0
       Value: true
     - Alpha: 1
@@ -135,7 +146,7 @@ Visualization Manager:
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
-    Fixed Frame: base_footprint
+    Fixed Frame: base_link
     Frame Rate: 30
   Name: root
   Tools:

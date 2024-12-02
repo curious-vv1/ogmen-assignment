@@ -14,7 +14,7 @@ def generate_launch_description():
     urdf_path = os.path.join(get_package_share_path('bot_description'),
                              'urdf', 'bot.urdf.xacro')
     rviz_config_path = os.path.join(get_package_share_path('bot_description'),
-                                    'rviz', 'urdf_config.rviz')
+                                    'rviz', 'config_urdf.rviz')
     gazebo_ros_path = get_package_share_path('gazebo_ros')
 
     # Robot description parameter
