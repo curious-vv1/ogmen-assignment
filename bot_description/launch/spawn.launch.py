@@ -60,5 +60,5 @@ def generate_launch_description():
         robot_state_publisher_node,
         gazebo_launch,
         spawn_entity_node,
-        # rviz2_node
+        rviz2_node
     ])
